@@ -1,0 +1,433 @@
+In archive lib/libArduinoEthernet.a:
+
+socket.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 socket.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text._ZN10W5100Class11writeSnDIPREhPh	00000000 .text._ZN10W5100Class11writeSnDIPREhPh
+00000000 l    d  .text._ZN10W5100Class6readSnEhj	00000000 .text._ZN10W5100Class6readSnEhj
+00000000 l    d  .text._ZN10W5100Class8readSnIREh	00000000 .text._ZN10W5100Class8readSnIREh
+00000000 l    d  .text._ZN10W5100Class7writeSnEhjh	00000000 .text._ZN10W5100Class7writeSnEhjh
+00000000 l    d  .text._ZN10W5100Class9writeSnIREhh	00000000 .text._ZN10W5100Class9writeSnIREhh
+00000000 l    d  .text._ZN10W5100Class12writeSnDPORTEhj	00000000 .text._ZN10W5100Class12writeSnDPORTEhj
+00000000 l    d  .text._ZN10W5100Class12writeSnRX_RDEhj	00000000 .text._ZN10W5100Class12writeSnRX_RDEhj
+00000000 l    d  .text._ZN10W5100Class11writeSnPORTEhj	00000000 .text._ZN10W5100Class11writeSnPORTEhj
+00000000 l    d  .text._Z5closeh	00000000 .text._Z5closeh
+00000000 l    d  .text._Z6sockethhjh	00000000 .text._Z6sockethhjh
+00000000 l     O .bss._ZL10local_port	00000002 _ZL10local_port
+00000000 l    d  .text._Z6listenh	00000000 .text._Z6listenh
+00000000 l    d  .text._Z7connecthPhj	00000000 .text._Z7connecthPhj
+00000000 l    d  .text._Z10disconnecth	00000000 .text._Z10disconnecth
+00000000 l    d  .text._Z4sendhPKhj	00000000 .text._Z4sendhPKhj
+00000000 l    d  .text._Z4recvhPhi	00000000 .text._Z4recvhPhi
+00000000 l    d  .text._Z4peekhPh	00000000 .text._Z4peekhPh
+00000000 l    d  .text._Z6sendtohPKhjPhj	00000000 .text._Z6sendtohPKhjPhj
+00000000 l    d  .text._Z8recvfromhPhjS_Pj	00000000 .text._Z8recvfromhPhjS_Pj
+00000000 l    d  .text._Z8igmpsendhPKhj	00000000 .text._Z8igmpsendhPKhj
+00000000 l    d  .text._Z10bufferDatahjPKhj	00000000 .text._Z10bufferDatahjPKhj
+00000000 l    d  .text._Z8startUDPhPhj	00000000 .text._Z8startUDPhPhj
+00000000 l    d  .text._Z7sendUDPh	00000000 .text._Z7sendUDPh
+00000000 l    d  .bss._ZL10local_port	00000000 .bss._ZL10local_port
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN10W5100Class11writeSnDIPREhPh	00000014 _ZN10W5100Class11writeSnDIPREhPh
+00000000         *UND*	00000000 _ZN10W5100Class5writeEjPKhj
+00000000  w    F .text._ZN10W5100Class6readSnEhj	00000016 _ZN10W5100Class6readSnEhj
+00000000         *UND*	00000000 _ZN10W5100Class4readEj
+00000000  w    F .text._ZN10W5100Class8readSnIREh	0000000a _ZN10W5100Class8readSnIREh
+00000000  w    F .text._ZN10W5100Class7writeSnEhjh	0000001a _ZN10W5100Class7writeSnEhjh
+00000000         *UND*	00000000 _ZN10W5100Class5writeEjh
+00000000  w    F .text._ZN10W5100Class9writeSnIREhh	0000000c _ZN10W5100Class9writeSnIREhh
+00000000  w    F .text._ZN10W5100Class12writeSnDPORTEhj	00000024 _ZN10W5100Class12writeSnDPORTEhj
+00000000  w    F .text._ZN10W5100Class12writeSnRX_RDEhj	00000024 _ZN10W5100Class12writeSnRX_RDEhj
+00000000  w    F .text._ZN10W5100Class11writeSnPORTEhj	00000024 _ZN10W5100Class11writeSnPORTEhj
+00000000 g     F .text._Z5closeh	0000001e _Z5closeh
+00000000         *UND*	00000000 W5100
+00000000         *UND*	00000000 _ZN10W5100Class9execCmdSnEh7SockCMD
+00000000 g     F .text._Z6sockethhjh	00000080 _Z6sockethhjh
+00000000 g     F .text._Z6listenh	00000028 _Z6listenh
+00000000 g     F .text._Z7connecthPhj	0000006c _Z7connecthPhj
+00000000 g     F .text._Z10disconnecth	00000010 _Z10disconnecth
+00000000 g     F .text._Z4sendhPKhj	0000009e _Z4sendhPKhj
+00000000         *UND*	00000000 __prologue_saves__
+00000000         *UND*	00000000 _ZN10W5100Class13getTXFreeSizeEh
+00000000         *UND*	00000000 _ZN10W5100Class20send_data_processingEhPKhj
+00000000         *UND*	00000000 __epilogue_restores__
+00000000 g     F .text._Z4recvhPhi	00000076 _Z4recvhPhi
+00000000         *UND*	00000000 _ZN10W5100Class17getRXReceivedSizeEh
+00000000         *UND*	00000000 _ZN10W5100Class20recv_data_processingEhPhjh
+00000000 g     F .text._Z4peekhPh	0000001c _Z4peekhPh
+00000000 g     F .text._Z6sendtohPKhjPhj	000000a8 _Z6sendtohPKhjPhj
+00000000 g     F .text._Z8recvfromhPhjS_Pj	0000013e _Z8recvfromhPhjS_Pj
+00000000         *UND*	00000000 _ZN10W5100Class9read_dataEhPVhS1_j
+00000000 g     F .text._Z8igmpsendhPKhj	0000007a _Z8igmpsendhPKhj
+00000000 g     F .text._Z10bufferDatahjPKhj	00000058 _Z10bufferDatahjPKhj
+00000000         *UND*	00000000 _ZN10W5100Class27send_data_processing_offsetEhjPKhj
+00000000 g     F .text._Z8startUDPhPhj	0000004c _Z8startUDPhPhj
+00000000 g     F .text._Z7sendUDPh	00000048 _Z7sendUDPh
+00000000         *UND*	00000000 __do_clear_bss
+
+
+
+w5100.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 w5100.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text._ZN8SPIClass8transferEh	00000000 .text._ZN8SPIClass8transferEh
+00000000 l    d  .text._ZN10W5100Class5setSSEv	00000000 .text._ZN10W5100Class5setSSEv
+00000000 l    d  .text._ZN10W5100Class7resetSSEv	00000000 .text._ZN10W5100Class7resetSSEv
+00000000 l    d  .text._ZN10W5100Class5writeEjh	00000000 .text._ZN10W5100Class5writeEjh
+00000000 l    d  .text._ZN10W5100Class7writeSnEhjh	00000000 .text._ZN10W5100Class7writeSnEhjh
+00000000 l    d  .text._ZN10W5100Class4initEv	00000000 .text._ZN10W5100Class4initEv
+00000000 l    d  .text._ZN10W5100Class5writeEjPKhj	00000000 .text._ZN10W5100Class5writeEjPKhj
+00000000 l    d  .text._ZN10W5100Class4readEj	00000000 .text._ZN10W5100Class4readEj
+00000000 l    d  .text._ZN10W5100Class6readSnEhj	00000000 .text._ZN10W5100Class6readSnEhj
+00000000 l    d  .text._ZN10W5100Class27send_data_processing_offsetEhjPKhj	00000000 .text._ZN10W5100Class27send_data_processing_offsetEhjPKhj
+00000000 l    d  .text._ZN10W5100Class20send_data_processingEhPKhj	00000000 .text._ZN10W5100Class20send_data_processingEhPKhj
+00000000 l    d  .text._ZN10W5100Class12readSnRX_RSREh	00000000 .text._ZN10W5100Class12readSnRX_RSREh
+00000000 l    d  .text._ZN10W5100Class17getRXReceivedSizeEh	00000000 .text._ZN10W5100Class17getRXReceivedSizeEh
+00000000 l    d  .text._ZN10W5100Class12readSnTX_FSREh	00000000 .text._ZN10W5100Class12readSnTX_FSREh
+00000000 l    d  .text._ZN10W5100Class13getTXFreeSizeEh	00000000 .text._ZN10W5100Class13getTXFreeSizeEh
+00000000 l    d  .text._ZN10W5100Class4readEjPhj	00000000 .text._ZN10W5100Class4readEjPhj
+00000000 l    d  .text._ZN10W5100Class9read_dataEhPVhS1_j	00000000 .text._ZN10W5100Class9read_dataEhPVhS1_j
+00000000 l    d  .text._ZN10W5100Class20recv_data_processingEhPhjh	00000000 .text._ZN10W5100Class20recv_data_processingEhPhjh
+00000000 l    d  .text._ZN10W5100Class9execCmdSnEh7SockCMD	00000000 .text._ZN10W5100Class9execCmdSnEh7SockCMD
+00000000 l    d  .bss.W5100	00000000 .bss.W5100
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN8SPIClass8transferEh	0000000c _ZN8SPIClass8transferEh
+00000000  w    F .text._ZN10W5100Class5setSSEv	00000004 _ZN10W5100Class5setSSEv
+00000000  w    F .text._ZN10W5100Class7resetSSEv	00000004 _ZN10W5100Class7resetSSEv
+00000000 g     F .text._ZN10W5100Class5writeEjh	00000040 _ZN10W5100Class5writeEjh
+00000000         *UND*	00000000 __prologue_saves__
+00000000         *UND*	00000000 __epilogue_restores__
+00000000  w    F .text._ZN10W5100Class7writeSnEhjh	0000001a _ZN10W5100Class7writeSnEhjh
+00000000 g     F .text._ZN10W5100Class4initEv	0000007c _ZN10W5100Class4initEv
+00000000         *UND*	00000000 delay
+00000000         *UND*	00000000 _ZN8SPIClass5beginEv
+00000000 g     F .text._ZN10W5100Class5writeEjPKhj	00000052 _ZN10W5100Class5writeEjPKhj
+00000000 g     F .text._ZN10W5100Class4readEj	0000003e _ZN10W5100Class4readEj
+00000000  w    F .text._ZN10W5100Class6readSnEhj	00000016 _ZN10W5100Class6readSnEhj
+00000000 g     F .text._ZN10W5100Class27send_data_processing_offsetEhjPKhj	000000de _ZN10W5100Class27send_data_processing_offsetEhjPKhj
+00000000 g     F .text._ZN10W5100Class20send_data_processingEhPKhj	00000016 _ZN10W5100Class20send_data_processingEhPKhj
+00000000  w    F .text._ZN10W5100Class12readSnRX_RSREh	00000028 _ZN10W5100Class12readSnRX_RSREh
+00000000 g     F .text._ZN10W5100Class17getRXReceivedSizeEh	00000036 _ZN10W5100Class17getRXReceivedSizeEh
+00000000  w    F .text._ZN10W5100Class12readSnTX_FSREh	00000028 _ZN10W5100Class12readSnTX_FSREh
+00000000 g     F .text._ZN10W5100Class13getTXFreeSizeEh	00000036 _ZN10W5100Class13getTXFreeSizeEh
+00000000 g     F .text._ZN10W5100Class4readEjPhj	00000054 _ZN10W5100Class4readEjPhj
+00000000 g     F .text._ZN10W5100Class9read_dataEhPVhS1_j	00000066 _ZN10W5100Class9read_dataEhPVhS1_j
+00000000 g     F .text._ZN10W5100Class20recv_data_processingEhPhjh	0000006c _ZN10W5100Class20recv_data_processingEhPhjh
+00000000 g     F .text._ZN10W5100Class9execCmdSnEh7SockCMD	00000020 _ZN10W5100Class9execCmdSnEh7SockCMD
+00000000 g     O .bss.W5100	00000010 W5100
+00000000         *UND*	00000000 __do_clear_bss
+
+
+
+SPI.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 SPI.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text._ZN8SPIClass5beginEv	00000000 .text._ZN8SPIClass5beginEv
+00000000 l    d  .text._ZN8SPIClass3endEv	00000000 .text._ZN8SPIClass3endEv
+00000000 l    d  .text._ZN8SPIClass11setBitOrderEh	00000000 .text._ZN8SPIClass11setBitOrderEh
+00000000 l    d  .text._ZN8SPIClass11setDataModeEh	00000000 .text._ZN8SPIClass11setDataModeEh
+00000000 l    d  .text._ZN8SPIClass15setClockDividerEh	00000000 .text._ZN8SPIClass15setClockDividerEh
+00000000 l    d  .bss.SPI	00000000 .bss.SPI
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text._ZN8SPIClass5beginEv	0000002e _ZN8SPIClass5beginEv
+00000000         *UND*	00000000 digitalWrite
+00000000         *UND*	00000000 pinMode
+00000000 g     F .text._ZN8SPIClass3endEv	00000008 _ZN8SPIClass3endEv
+00000000 g     F .text._ZN8SPIClass11setBitOrderEh	00000012 _ZN8SPIClass11setBitOrderEh
+00000000 g     F .text._ZN8SPIClass11setDataModeEh	0000000a _ZN8SPIClass11setDataModeEh
+00000000 g     F .text._ZN8SPIClass15setClockDividerEh	0000001c _ZN8SPIClass15setClockDividerEh
+00000000 g     O .bss.SPI	00000001 SPI
+00000000         *UND*	00000000 __do_clear_bss
+
+
+
+w5100Wrapper.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 w5100Wrapper.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.CSnMR_new	00000000 .text.CSnMR_new
+00000000 l    d  .text.CSnMR_delete	00000000 .text.CSnMR_delete
+00000000 l    d  .text.SnMR_CLOSE	00000000 .text.SnMR_CLOSE
+00000000 l    d  .text.SnMR_UDP	00000000 .text.SnMR_UDP
+00000000 l    d  .text.SnMR_TCP	00000000 .text.SnMR_TCP
+00000000 l    d  .text.SnMR_IPRAW	00000000 .text.SnMR_IPRAW
+00000000 l    d  .text.SnMR_MACRAW	00000000 .text.SnMR_MACRAW
+00000000 l    d  .text.SnMR_PPPOE	00000000 .text.SnMR_PPPOE
+00000000 l    d  .text.SnMR_ND	00000000 .text.SnMR_ND
+00000000 l    d  .text.SnMR_MULTI	00000000 .text.SnMR_MULTI
+00000000 l    d  .text.CSnIR_new	00000000 .text.CSnIR_new
+00000000 l    d  .text.CSnIR_delete	00000000 .text.CSnIR_delete
+00000000 l    d  .text.SnIR_SEND_OK	00000000 .text.SnIR_SEND_OK
+00000000 l    d  .text.SnIR_TIMEOUT	00000000 .text.SnIR_TIMEOUT
+00000000 l    d  .text.SnIR_RECV	00000000 .text.SnIR_RECV
+00000000 l    d  .text.SnIR_DISCON	00000000 .text.SnIR_DISCON
+00000000 l    d  .text.SnIR_CON	00000000 .text.SnIR_CON
+00000000 l    d  .text.CSnSR_new	00000000 .text.CSnSR_new
+00000000 l    d  .text.CSnSR_delete	00000000 .text.CSnSR_delete
+00000000 l    d  .text.SnSR_CLOSED	00000000 .text.SnSR_CLOSED
+00000000 l    d  .text.SnSR_INIT	00000000 .text.SnSR_INIT
+00000000 l    d  .text.SnSR_LISTEN	00000000 .text.SnSR_LISTEN
+00000000 l    d  .text.SnSR_SYNSENT	00000000 .text.SnSR_SYNSENT
+00000000 l    d  .text.SnSR_SYNRECV	00000000 .text.SnSR_SYNRECV
+00000000 l    d  .text.SnSR_ESTABLISHED	00000000 .text.SnSR_ESTABLISHED
+00000000 l    d  .text.SnSR_FIN_WAIT	00000000 .text.SnSR_FIN_WAIT
+00000000 l    d  .text.SnSR_CLOSING	00000000 .text.SnSR_CLOSING
+00000000 l    d  .text.SnSR_TIME_WAIT	00000000 .text.SnSR_TIME_WAIT
+00000000 l    d  .text.SnSR_CLOSE_WAIT	00000000 .text.SnSR_CLOSE_WAIT
+00000000 l    d  .text.SnSR_LAST_ACK	00000000 .text.SnSR_LAST_ACK
+00000000 l    d  .text.SnSR_UDP	00000000 .text.SnSR_UDP
+00000000 l    d  .text.SnSR_IPRAW	00000000 .text.SnSR_IPRAW
+00000000 l    d  .text.SnSR_MACRAW	00000000 .text.SnSR_MACRAW
+00000000 l    d  .text.SnSR_PPPOE	00000000 .text.SnSR_PPPOE
+00000000 l    d  .text.CIPPROTO_new	00000000 .text.CIPPROTO_new
+00000000 l    d  .text.CIPPROTO_delete	00000000 .text.CIPPROTO_delete
+00000000 l    d  .text.IPPROTO_IP	00000000 .text.IPPROTO_IP
+00000000 l    d  .text.IPPROTO_ICMP	00000000 .text.IPPROTO_ICMP
+00000000 l    d  .text.IPPROTO_IGMP	00000000 .text.IPPROTO_IGMP
+00000000 l    d  .text.IPPROTO_GGP	00000000 .text.IPPROTO_GGP
+00000000 l    d  .text.IPPROTO_TCP	00000000 .text.IPPROTO_TCP
+00000000 l    d  .text.IPPROTO_PUP	00000000 .text.IPPROTO_PUP
+00000000 l    d  .text.IPPROTO_UDP	00000000 .text.IPPROTO_UDP
+00000000 l    d  .text.IPPROTO_IDP	00000000 .text.IPPROTO_IDP
+00000000 l    d  .text.IPPROTO_ND	00000000 .text.IPPROTO_ND
+00000000 l    d  .text.IPPROTO_RAW	00000000 .text.IPPROTO_RAW
+00000000 l    d  .text.CW5100Class_new	00000000 .text.CW5100Class_new
+00000000 l    d  .text.init_func	00000000 .text.init_func
+00000000 l    d  .text.read_data_func	00000000 .text.read_data_func
+00000000 l    d  .text.send_data_processing_func	00000000 .text.send_data_processing_func
+00000000 l    d  .text.send_data_processing_offset_func	00000000 .text.send_data_processing_offset_func
+00000000 l    d  .text.recv_data_processing_func	00000000 .text.recv_data_processing_func
+00000000 l    d  .text.setGatewayIp_func	00000000 .text.setGatewayIp_func
+00000000 l    d  .text.getGatewayIp_func	00000000 .text.getGatewayIp_func
+00000000 l    d  .text.setSubnetMask_func	00000000 .text.setSubnetMask_func
+00000000 l    d  .text.getSubnetMask_func	00000000 .text.getSubnetMask_func
+00000000 l    d  .text.setMACAddress_func	00000000 .text.setMACAddress_func
+00000000 l    d  .text.getMACAddress_func	00000000 .text.getMACAddress_func
+00000000 l    d  .text.setIPAddress_func	00000000 .text.setIPAddress_func
+00000000 l    d  .text.getIPAddress_func	00000000 .text.getIPAddress_func
+00000000 l    d  .text.setRetransmissionTime_func	00000000 .text.setRetransmissionTime_func
+00000000 l    d  .text.setRetransmissionCount_func	00000000 .text.setRetransmissionCount_func
+00000000 l    d  .text.getTXFreeSize_func	00000000 .text.getTXFreeSize_func
+00000000 l    d  .text.getRXReceivedSize_func	00000000 .text.getRXReceivedSize_func
+00000000 l    d  .text.readSnSR_func	00000000 .text.readSnSR_func
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.CSnMR_new	0000000a CSnMR_new
+00000000         *UND*	00000000 _Znwj
+00000000 g     F .text.CSnMR_delete	00000006 CSnMR_delete
+00000000         *UND*	00000000 _ZdlPv
+00000000 g     F .text.SnMR_CLOSE	00000004 SnMR_CLOSE
+00000000 g     F .text.SnMR_UDP	00000004 SnMR_UDP
+00000000 g     F .text.SnMR_TCP	00000004 SnMR_TCP
+00000000 g     F .text.SnMR_IPRAW	00000004 SnMR_IPRAW
+00000000 g     F .text.SnMR_MACRAW	00000004 SnMR_MACRAW
+00000000 g     F .text.SnMR_PPPOE	00000004 SnMR_PPPOE
+00000000 g     F .text.SnMR_ND	00000004 SnMR_ND
+00000000 g     F .text.SnMR_MULTI	00000004 SnMR_MULTI
+00000000 g     F .text.CSnIR_new	0000000a CSnIR_new
+00000000 g     F .text.CSnIR_delete	00000006 CSnIR_delete
+00000000 g     F .text.SnIR_SEND_OK	00000004 SnIR_SEND_OK
+00000000 g     F .text.SnIR_TIMEOUT	00000004 SnIR_TIMEOUT
+00000000 g     F .text.SnIR_RECV	00000004 SnIR_RECV
+00000000 g     F .text.SnIR_DISCON	00000004 SnIR_DISCON
+00000000 g     F .text.SnIR_CON	00000004 SnIR_CON
+00000000 g     F .text.CSnSR_new	0000000a CSnSR_new
+00000000 g     F .text.CSnSR_delete	00000006 CSnSR_delete
+00000000 g     F .text.SnSR_CLOSED	00000004 SnSR_CLOSED
+00000000 g     F .text.SnSR_INIT	00000004 SnSR_INIT
+00000000 g     F .text.SnSR_LISTEN	00000004 SnSR_LISTEN
+00000000 g     F .text.SnSR_SYNSENT	00000004 SnSR_SYNSENT
+00000000 g     F .text.SnSR_SYNRECV	00000004 SnSR_SYNRECV
+00000000 g     F .text.SnSR_ESTABLISHED	00000004 SnSR_ESTABLISHED
+00000000 g     F .text.SnSR_FIN_WAIT	00000004 SnSR_FIN_WAIT
+00000000 g     F .text.SnSR_CLOSING	00000004 SnSR_CLOSING
+00000000 g     F .text.SnSR_TIME_WAIT	00000004 SnSR_TIME_WAIT
+00000000 g     F .text.SnSR_CLOSE_WAIT	00000004 SnSR_CLOSE_WAIT
+00000000 g     F .text.SnSR_LAST_ACK	00000004 SnSR_LAST_ACK
+00000000 g     F .text.SnSR_UDP	00000004 SnSR_UDP
+00000000 g     F .text.SnSR_IPRAW	00000004 SnSR_IPRAW
+00000000 g     F .text.SnSR_MACRAW	00000004 SnSR_MACRAW
+00000000 g     F .text.SnSR_PPPOE	00000004 SnSR_PPPOE
+00000000 g     F .text.CIPPROTO_new	0000000a CIPPROTO_new
+00000000 g     F .text.CIPPROTO_delete	00000006 CIPPROTO_delete
+00000000 g     F .text.IPPROTO_IP	00000004 IPPROTO_IP
+00000000 g     F .text.IPPROTO_ICMP	00000004 IPPROTO_ICMP
+00000000 g     F .text.IPPROTO_IGMP	00000004 IPPROTO_IGMP
+00000000 g     F .text.IPPROTO_GGP	00000004 IPPROTO_GGP
+00000000 g     F .text.IPPROTO_TCP	00000004 IPPROTO_TCP
+00000000 g     F .text.IPPROTO_PUP	00000004 IPPROTO_PUP
+00000000 g     F .text.IPPROTO_UDP	00000004 IPPROTO_UDP
+00000000 g     F .text.IPPROTO_IDP	00000004 IPPROTO_IDP
+00000000 g     F .text.IPPROTO_ND	00000004 IPPROTO_ND
+00000000 g     F .text.IPPROTO_RAW	00000004 IPPROTO_RAW
+00000000 g     F .text.CW5100Class_new	00000006 CW5100Class_new
+00000000         *UND*	00000000 W5100
+00000000 g     F .text.init_func	00000006 init_func
+00000000         *UND*	00000000 _ZN10W5100Class4initEv
+00000000 g     F .text.read_data_func	0000000e read_data_func
+00000000         *UND*	00000000 _ZN10W5100Class9read_dataEhPVhS1_j
+00000000 g     F .text.send_data_processing_func	00000006 send_data_processing_func
+00000000         *UND*	00000000 _ZN10W5100Class20send_data_processingEhPKhj
+00000000 g     F .text.send_data_processing_offset_func	0000000e send_data_processing_offset_func
+00000000         *UND*	00000000 _ZN10W5100Class27send_data_processing_offsetEhjPKhj
+00000000 g     F .text.recv_data_processing_func	0000000a recv_data_processing_func
+00000000         *UND*	00000000 _ZN10W5100Class20recv_data_processingEhPhjh
+00000000 g     F .text.setGatewayIp_func	0000000e setGatewayIp_func
+00000000         *UND*	00000000 _ZN10W5100Class5writeEjPKhj
+00000000 g     F .text.getGatewayIp_func	0000000e getGatewayIp_func
+00000000         *UND*	00000000 _ZN10W5100Class4readEjPhj
+00000000 g     F .text.setSubnetMask_func	0000000e setSubnetMask_func
+00000000 g     F .text.getSubnetMask_func	0000000e getSubnetMask_func
+00000000 g     F .text.setMACAddress_func	0000000e setMACAddress_func
+00000000 g     F .text.getMACAddress_func	0000000e getMACAddress_func
+00000000 g     F .text.setIPAddress_func	0000000e setIPAddress_func
+00000000 g     F .text.getIPAddress_func	0000000e getIPAddress_func
+00000000 g     F .text.setRetransmissionTime_func	0000001c setRetransmissionTime_func
+00000000         *UND*	00000000 _ZN10W5100Class5writeEjh
+00000000 g     F .text.setRetransmissionCount_func	0000000a setRetransmissionCount_func
+00000000 g     F .text.getTXFreeSize_func	00000006 getTXFreeSize_func
+00000000         *UND*	00000000 _ZN10W5100Class13getTXFreeSizeEh
+00000000 g     F .text.getRXReceivedSize_func	00000006 getRXReceivedSize_func
+00000000         *UND*	00000000 _ZN10W5100Class17getRXReceivedSizeEh
+00000000 g     F .text.readSnSR_func	0000000e readSnSR_func
+00000000         *UND*	00000000 _ZN10W5100Class4readEj
+
+
+
+socketWrapper.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 socketWrapper.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.socket_func	00000000 .text.socket_func
+00000000 l    d  .text.close_func	00000000 .text.close_func
+00000000 l    d  .text.connect_func	00000000 .text.connect_func
+00000000 l    d  .text.disconnect_func	00000000 .text.disconnect_func
+00000000 l    d  .text.listen_func	00000000 .text.listen_func
+00000000 l    d  .text.send_func	00000000 .text.send_func
+00000000 l    d  .text.recv_func	00000000 .text.recv_func
+00000000 l    d  .text.peek_func	00000000 .text.peek_func
+00000000 l    d  .text.sendto_func	00000000 .text.sendto_func
+00000000 l    d  .text.recvfrom_func	00000000 .text.recvfrom_func
+00000000 l    d  .text.igmpsend_func	00000000 .text.igmpsend_func
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.socket_func	00000006 socket_func
+00000000         *UND*	00000000 _Z6sockethhjh
+00000000 g     F .text.close_func	00000006 close_func
+00000000         *UND*	00000000 _Z5closeh
+00000000 g     F .text.connect_func	00000006 connect_func
+00000000         *UND*	00000000 _Z7connecthPhj
+00000000 g     F .text.disconnect_func	00000006 disconnect_func
+00000000         *UND*	00000000 _Z10disconnecth
+00000000 g     F .text.listen_func	00000006 listen_func
+00000000         *UND*	00000000 _Z6listenh
+00000000 g     F .text.send_func	00000006 send_func
+00000000         *UND*	00000000 _Z4sendhPKhj
+00000000 g     F .text.recv_func	00000006 recv_func
+00000000         *UND*	00000000 _Z4recvhPhi
+00000000 g     F .text.peek_func	00000006 peek_func
+00000000         *UND*	00000000 _Z4peekhPh
+00000000 g     F .text.sendto_func	0000000e sendto_func
+00000000         *UND*	00000000 _Z6sendtohPKhjPhj
+00000000 g     F .text.recvfrom_func	0000000e recvfrom_func
+00000000         *UND*	00000000 _Z8recvfromhPhjS_Pj
+00000000 g     F .text.igmpsend_func	00000006 igmpsend_func
+00000000         *UND*	00000000 _Z8igmpsendhPKhj
+
+

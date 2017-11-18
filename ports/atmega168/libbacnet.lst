@@ -1,0 +1,866 @@
+In archive libbacnet.a:
+
+crc.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 crc.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.CRC_Calc_Header	00000000 .text.CRC_Calc_Header
+00000000 l    d  .text.CRC_Calc_Data	00000000 .text.CRC_Calc_Data
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.CRC_Calc_Header	00000070 CRC_Calc_Header
+00000000 g     F .text.CRC_Calc_Data	0000005a CRC_Calc_Data
+
+
+
+npdu.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 npdu.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.npdu_copy_data	00000000 .text.npdu_copy_data
+00000000 l    d  .text.npdu_encode_pdu	00000000 .text.npdu_encode_pdu
+00000000 l    d  .text.npdu_encode_npdu_data	00000000 .text.npdu_encode_npdu_data
+00000000 l    d  .text.npdu_decode	00000000 .text.npdu_decode
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.npdu_copy_data	0000004c npdu_copy_data
+00000000 g     F .text.npdu_encode_pdu	000001d4 npdu_encode_pdu
+00000000         *UND*	00000000 __prologue_saves__
+00000000         *UND*	00000000 encode_unsigned16
+00000000         *UND*	00000000 __epilogue_restores__
+00000000 g     F .text.npdu_encode_npdu_data	00000024 npdu_encode_npdu_data
+00000000 g     F .text.npdu_decode	00000238 npdu_decode
+00000000         *UND*	00000000 decode_unsigned16
+
+
+
+bacdcode.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 bacdcode.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.byte_reverse_bits	00000000 .text.byte_reverse_bits
+00000000 l     F .text.byte_reverse_bits	0000002a byte_reverse_bits
+00000000 l    d  .text.encode_max_segs_max_apdu	00000000 .text.encode_max_segs_max_apdu
+00000000 l    d  .text.decode_max_segs	00000000 .text.decode_max_segs
+00000000 l    d  .text.decode_max_apdu	00000000 .text.decode_max_apdu
+00000000 l     O .rodata.CSWTCH.102	0000000c CSWTCH.102
+00000000 l    d  .text.encode_tag	00000000 .text.encode_tag
+00000000 l    d  .text.encode_opening_tag	00000000 .text.encode_opening_tag
+00000000 l    d  .text.encode_closing_tag	00000000 .text.encode_closing_tag
+00000000 l    d  .text.decode_tag_number	00000000 .text.decode_tag_number
+00000000 l    d  .text.decode_tag_number_safe	00000000 .text.decode_tag_number_safe
+00000000 l    d  .text.decode_is_opening_tag	00000000 .text.decode_is_opening_tag
+00000000 l    d  .text.decode_is_closing_tag	00000000 .text.decode_is_closing_tag
+00000000 l    d  .text.decode_tag_number_and_value	00000000 .text.decode_tag_number_and_value
+00000000 l    d  .text.decode_tag_number_and_value_safe	00000000 .text.decode_tag_number_and_value_safe
+00000000 l    d  .text.decode_is_context_tag	00000000 .text.decode_is_context_tag
+00000000 l    d  .text.decode_is_context_tag_with_length	00000000 .text.decode_is_context_tag_with_length
+00000000 l    d  .text.decode_is_opening_tag_number	00000000 .text.decode_is_opening_tag_number
+00000000 l    d  .text.decode_is_closing_tag_number	00000000 .text.decode_is_closing_tag_number
+00000000 l    d  .text.encode_application_boolean	00000000 .text.encode_application_boolean
+00000000 l    d  .text.encode_context_boolean	00000000 .text.encode_context_boolean
+00000000 l    d  .text.decode_context_boolean	00000000 .text.decode_context_boolean
+00000000 l    d  .text.decode_context_boolean2	00000000 .text.decode_context_boolean2
+00000000 l    d  .text.decode_boolean	00000000 .text.decode_boolean
+00000000 l    d  .text.encode_application_null	00000000 .text.encode_application_null
+00000000 l    d  .text.encode_context_null	00000000 .text.encode_context_null
+00000000 l    d  .text.decode_bitstring	00000000 .text.decode_bitstring
+00000000 l    d  .text.decode_context_bitstring	00000000 .text.decode_context_bitstring
+00000000 l    d  .text.encode_bitstring	00000000 .text.encode_bitstring
+00000000 l    d  .text.encode_application_bitstring	00000000 .text.encode_application_bitstring
+00000000 l    d  .text.encode_context_bitstring	00000000 .text.encode_context_bitstring
+00000000 l    d  .text.decode_object_id	00000000 .text.decode_object_id
+00000000 l    d  .text.decode_object_id_safe	00000000 .text.decode_object_id_safe
+00000000 l    d  .text.decode_context_object_id	00000000 .text.decode_context_object_id
+00000000 l    d  .text.encode_bacnet_object_id	00000000 .text.encode_bacnet_object_id
+00000000 l    d  .text.encode_context_object_id	00000000 .text.encode_context_object_id
+00000000 l    d  .text.encode_application_object_id	00000000 .text.encode_application_object_id
+00000000 l    d  .text.encode_octet_string	00000000 .text.encode_octet_string
+00000000 l    d  .text.encode_application_octet_string	00000000 .text.encode_application_octet_string
+00000000 l    d  .text.encode_context_octet_string	00000000 .text.encode_context_octet_string
+00000000 l    d  .text.decode_octet_string	00000000 .text.decode_octet_string
+00000000 l    d  .text.decode_context_octet_string	00000000 .text.decode_context_octet_string
+00000000 l    d  .text.encode_bacnet_character_string_safe	00000000 .text.encode_bacnet_character_string_safe
+00000000 l    d  .text.encode_bacnet_character_string	00000000 .text.encode_bacnet_character_string
+00000000 l    d  .text.encode_application_character_string	00000000 .text.encode_application_character_string
+00000000 l    d  .text.encode_context_character_string	00000000 .text.encode_context_character_string
+00000000 l    d  .text.decode_character_string	00000000 .text.decode_character_string
+00000000 l    d  .text.decode_context_character_string	00000000 .text.decode_context_character_string
+00000000 l    d  .text.decode_unsigned	00000000 .text.decode_unsigned
+00000000 l    d  .text.decode_context_unsigned	00000000 .text.decode_context_unsigned
+00000000 l    d  .text.encode_bacnet_unsigned	00000000 .text.encode_bacnet_unsigned
+00000000 l    d  .text.encode_context_unsigned	00000000 .text.encode_context_unsigned
+00000000 l    d  .text.encode_application_unsigned	00000000 .text.encode_application_unsigned
+00000000 l    d  .text.decode_enumerated	00000000 .text.decode_enumerated
+00000000 l    d  .text.decode_context_enumerated	00000000 .text.decode_context_enumerated
+00000000 l    d  .text.encode_bacnet_enumerated	00000000 .text.encode_bacnet_enumerated
+00000000 l    d  .text.encode_application_enumerated	00000000 .text.encode_application_enumerated
+00000000 l    d  .text.encode_context_enumerated	00000000 .text.encode_context_enumerated
+00000000 l    d  .text.decode_signed	00000000 .text.decode_signed
+00000000 l    d  .text.decode_context_signed	00000000 .text.decode_context_signed
+00000000 l    d  .text.encode_bacnet_signed	00000000 .text.encode_bacnet_signed
+00000000 l    d  .text.encode_application_signed	00000000 .text.encode_application_signed
+00000000 l    d  .text.encode_context_signed	00000000 .text.encode_context_signed
+00000000 l    d  .text.encode_application_real	00000000 .text.encode_application_real
+00000000 l    d  .text.encode_context_real	00000000 .text.encode_context_real
+00000000 l    d  .text.encode_application_double	00000000 .text.encode_application_double
+00000000 l    d  .text.encode_context_double	00000000 .text.encode_context_double
+00000000 l    d  .text.encode_bacnet_time	00000000 .text.encode_bacnet_time
+00000000 l    d  .text.encode_application_time	00000000 .text.encode_application_time
+00000000 l    d  .text.encode_context_time	00000000 .text.encode_context_time
+00000000 l    d  .text.decode_bacnet_time	00000000 .text.decode_bacnet_time
+00000000 l    d  .text.decode_bacnet_time_safe	00000000 .text.decode_bacnet_time_safe
+00000000 l    d  .text.decode_application_time	00000000 .text.decode_application_time
+00000000 l    d  .text.decode_context_bacnet_time	00000000 .text.decode_context_bacnet_time
+00000000 l    d  .text.encode_bacnet_date	00000000 .text.encode_bacnet_date
+00000000 l    d  .text.encode_application_date	00000000 .text.encode_application_date
+00000000 l    d  .text.encode_context_date	00000000 .text.encode_context_date
+00000000 l    d  .text.decode_date	00000000 .text.decode_date
+00000000 l    d  .text.decode_date_safe	00000000 .text.decode_date_safe
+00000000 l    d  .text.decode_application_date	00000000 .text.decode_application_date
+00000000 l    d  .text.decode_context_date	00000000 .text.decode_context_date
+00000000 l    d  .text.encode_simple_ack	00000000 .text.encode_simple_ack
+00000000 l    d  .text.encode_bacnet_address	00000000 .text.encode_bacnet_address
+00000000 l    d  .text.decode_bacnet_address	00000000 .text.decode_bacnet_address
+00000000 l    d  .text.encode_context_bacnet_address	00000000 .text.encode_context_bacnet_address
+00000000 l    d  .text.decode_context_bacnet_address	00000000 .text.decode_context_bacnet_address
+00000000 l    d  .rodata.CSWTCH.102	00000000 .rodata.CSWTCH.102
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.encode_max_segs_max_apdu	00000084 encode_max_segs_max_apdu
+00000000 g     F .text.decode_max_segs	00000052 decode_max_segs
+00000000 g     F .text.decode_max_apdu	0000001e decode_max_apdu
+00000000 g     F .text.encode_tag	000000a6 encode_tag
+00000000         *UND*	00000000 encode_unsigned16
+00000000         *UND*	00000000 encode_unsigned32
+00000000 g     F .text.encode_opening_tag	0000002e encode_opening_tag
+00000000 g     F .text.encode_closing_tag	0000002e encode_closing_tag
+00000000 g     F .text.decode_tag_number	00000036 decode_tag_number
+00000000 g     F .text.decode_tag_number_safe	00000052 decode_tag_number_safe
+00000000 g     F .text.decode_is_opening_tag	00000010 decode_is_opening_tag
+00000000 g     F .text.decode_is_closing_tag	00000010 decode_is_closing_tag
+00000000 g     F .text.decode_tag_number_and_value	000000dc decode_tag_number_and_value
+00000000         *UND*	00000000 __prologue_saves__
+00000000         *UND*	00000000 decode_unsigned32
+00000000         *UND*	00000000 decode_unsigned16
+00000000         *UND*	00000000 __epilogue_restores__
+00000000 g     F .text.decode_tag_number_and_value_safe	0000011e decode_tag_number_and_value_safe
+00000000 g     F .text.decode_is_context_tag	00000036 decode_is_context_tag
+00000000 g     F .text.decode_is_context_tag_with_length	0000003e decode_is_context_tag_with_length
+00000000 g     F .text.decode_is_opening_tag_number	00000038 decode_is_opening_tag_number
+00000000 g     F .text.decode_is_closing_tag_number	00000038 decode_is_closing_tag_number
+00000000 g     F .text.encode_application_boolean	0000001a encode_application_boolean
+00000000 g     F .text.encode_context_boolean	0000002e encode_context_boolean
+00000000 g     F .text.decode_context_boolean	0000000e decode_context_boolean
+00000000 g     F .text.decode_context_boolean2	00000056 decode_context_boolean2
+00000000 g     F .text.decode_boolean	00000010 decode_boolean
+00000000 g     F .text.encode_application_null	0000000a encode_application_null
+00000000 g     F .text.encode_context_null	00000016 encode_context_null
+00000000 g     F .text.decode_bitstring	000000a8 decode_bitstring
+00000000         *UND*	00000000 bitstring_init
+00000000         *UND*	00000000 bitstring_set_octet
+00000000         *UND*	00000000 bitstring_set_bits_used
+00000000 g     F .text.decode_context_bitstring	00000060 decode_context_bitstring
+00000000 g     F .text.encode_bitstring	00000070 encode_bitstring
+00000000         *UND*	00000000 bitstring_bits_used
+00000000         *UND*	00000000 bitstring_bytes_used
+00000000         *UND*	00000000 bitstring_octet
+00000000 g     F .text.encode_application_bitstring	0000004c encode_application_bitstring
+00000000 g     F .text.encode_context_bitstring	0000004c encode_context_bitstring
+00000000 g     F .text.decode_object_id	0000005a decode_object_id
+00000000 g     F .text.decode_object_id_safe	00000022 decode_object_id_safe
+00000000 g     F .text.decode_context_object_id	00000050 decode_context_object_id
+00000000 g     F .text.encode_bacnet_object_id	00000036 encode_bacnet_object_id
+00000000 g     F .text.encode_context_object_id	00000042 encode_context_object_id
+00000000 g     F .text.encode_application_object_id	00000038 encode_application_object_id
+00000000 g     F .text.encode_octet_string	0000004e encode_octet_string
+00000000         *UND*	00000000 octetstring_length
+00000000         *UND*	00000000 octetstring_value
+00000000 g     F .text.encode_application_octet_string	0000005a encode_application_octet_string
+00000000 g     F .text.encode_context_octet_string	00000060 encode_context_octet_string
+00000000 g     F .text.decode_octet_string	0000002a decode_octet_string
+00000000         *UND*	00000000 octetstring_init
+00000000 g     F .text.decode_context_octet_string	0000006e decode_context_octet_string
+00000000 g     F .text.encode_bacnet_character_string_safe	00000072 encode_bacnet_character_string_safe
+00000000 g     F .text.encode_bacnet_character_string	00000046 encode_bacnet_character_string
+00000000         *UND*	00000000 characterstring_length
+00000000         *UND*	00000000 characterstring_value
+00000000         *UND*	00000000 characterstring_encoding
+00000000 g     F .text.encode_application_character_string	0000005c encode_application_character_string
+00000000 g     F .text.encode_context_character_string	0000005c encode_context_character_string
+00000000 g     F .text.decode_character_string	00000038 decode_character_string
+00000000         *UND*	00000000 characterstring_init
+00000000 g     F .text.decode_context_character_string	0000007e decode_context_character_string
+00000000 g     F .text.decode_unsigned	00000090 decode_unsigned
+00000000         *UND*	00000000 decode_unsigned24
+00000000 g     F .text.decode_context_unsigned	00000060 decode_context_unsigned
+00000000 g     F .text.encode_bacnet_unsigned	00000042 encode_bacnet_unsigned
+00000000         *UND*	00000000 encode_unsigned24
+00000000 g     F .text.encode_context_unsigned	0000007a encode_context_unsigned
+00000000 g     F .text.encode_application_unsigned	00000038 encode_application_unsigned
+00000000 g     F .text.decode_enumerated	00000040 decode_enumerated
+00000000 g     F .text.decode_context_enumerated	0000005c decode_context_enumerated
+00000000 g     F .text.encode_bacnet_enumerated	00000006 encode_bacnet_enumerated
+00000000 g     F .text.encode_application_enumerated	00000038 encode_application_enumerated
+00000000 g     F .text.encode_context_enumerated	0000007a encode_context_enumerated
+00000000 g     F .text.decode_signed	00000074 decode_signed
+00000000         *UND*	00000000 decode_signed8
+00000000         *UND*	00000000 decode_signed32
+00000000         *UND*	00000000 decode_signed16
+00000000         *UND*	00000000 decode_signed24
+00000000 g     F .text.decode_context_signed	00000060 decode_context_signed
+00000000 g     F .text.encode_bacnet_signed	0000007e encode_bacnet_signed
+00000000         *UND*	00000000 encode_signed8
+00000000         *UND*	00000000 encode_signed16
+00000000         *UND*	00000000 encode_signed24
+00000000         *UND*	00000000 encode_signed32
+00000000 g     F .text.encode_application_signed	00000038 encode_application_signed
+00000000 g     F .text.encode_context_signed	0000009c encode_context_signed
+00000000 g     F .text.encode_application_real	00000040 encode_application_real
+00000000         *UND*	00000000 encode_bacnet_real
+00000000 g     F .text.encode_context_real	0000003e encode_context_real
+00000000 g     F .text.encode_application_double	00000040 encode_application_double
+00000000         *UND*	00000000 encode_bacnet_double
+00000000 g     F .text.encode_context_double	0000003e encode_context_double
+00000000 g     F .text.encode_bacnet_time	00000024 encode_bacnet_time
+00000000 g     F .text.encode_application_time	00000028 encode_application_time
+00000000 g     F .text.encode_context_time	00000040 encode_context_time
+00000000 g     F .text.decode_bacnet_time	00000024 decode_bacnet_time
+00000000 g     F .text.decode_bacnet_time_safe	0000003a decode_bacnet_time_safe
+00000000 g     F .text.decode_application_time	00000052 decode_application_time
+00000000 g     F .text.decode_context_bacnet_time	00000060 decode_context_bacnet_time
+00000000 g     F .text.encode_bacnet_date	00000042 encode_bacnet_date
+00000000 g     F .text.encode_application_date	00000038 encode_application_date
+00000000 g     F .text.encode_context_date	0000003a encode_context_date
+00000000 g     F .text.decode_date	0000002e decode_date
+00000000 g     F .text.decode_date_safe	00000022 decode_date_safe
+00000000 g     F .text.decode_application_date	0000003a decode_application_date
+00000000 g     F .text.decode_context_date	0000004c decode_context_date
+00000000 g     F .text.encode_simple_ack	00000010 encode_simple_ack
+00000000 g     F .text.encode_bacnet_address	0000005e encode_bacnet_address
+00000000 g     F .text.decode_bacnet_address	000000e2 decode_bacnet_address
+00000000 g     F .text.encode_context_bacnet_address	00000042 encode_context_bacnet_address
+00000000 g     F .text.decode_context_bacnet_address	0000004c decode_context_bacnet_address
+00000000         *UND*	00000000 __do_copy_data
+
+
+
+bacint.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 bacint.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.encode_unsigned16	00000000 .text.encode_unsigned16
+00000000 l    d  .text.decode_unsigned16	00000000 .text.decode_unsigned16
+00000000 l    d  .text.encode_unsigned24	00000000 .text.encode_unsigned24
+00000000 l    d  .text.decode_unsigned24	00000000 .text.decode_unsigned24
+00000000 l    d  .text.encode_unsigned32	00000000 .text.encode_unsigned32
+00000000 l    d  .text.decode_unsigned32	00000000 .text.decode_unsigned32
+00000000 l    d  .text.encode_signed8	00000000 .text.encode_signed8
+00000000 l    d  .text.decode_signed8	00000000 .text.decode_signed8
+00000000 l    d  .text.encode_signed16	00000000 .text.encode_signed16
+00000000 l    d  .text.decode_signed16	00000000 .text.decode_signed16
+00000000 l    d  .text.encode_signed24	00000000 .text.encode_signed24
+00000000 l    d  .text.decode_signed24	00000000 .text.decode_signed24
+00000000 l    d  .text.encode_signed32	00000000 .text.encode_signed32
+00000000 l    d  .text.decode_signed32	00000000 .text.decode_signed32
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.encode_unsigned16	0000000c encode_unsigned16
+00000000 g     F .text.decode_unsigned16	00000028 decode_unsigned16
+00000000 g     F .text.encode_unsigned24	0000000e encode_unsigned24
+00000000 g     F .text.decode_unsigned24	00000042 decode_unsigned24
+00000000 g     F .text.encode_unsigned32	00000010 encode_unsigned32
+00000000 g     F .text.decode_unsigned32	00000052 decode_unsigned32
+00000000 g     F .text.encode_signed8	0000000a encode_signed8
+00000000 g     F .text.decode_signed8	00000044 decode_signed8
+00000000 g     F .text.encode_signed16	0000000c encode_signed16
+00000000 g     F .text.decode_signed16	00000050 decode_signed16
+00000000 g     F .text.encode_signed24	0000000e encode_signed24
+00000000 g     F .text.decode_signed24	00000060 decode_signed24
+00000000 g     F .text.encode_signed32	00000010 encode_signed32
+00000000 g     F .text.decode_signed32	00000052 decode_signed32
+
+
+
+bacreal.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 bacreal.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.decode_real	00000000 .text.decode_real
+00000000 l    d  .text.decode_real_safe	00000000 .text.decode_real_safe
+00000000 l    d  .text.decode_context_real	00000000 .text.decode_context_real
+00000000 l    d  .text.encode_bacnet_real	00000000 .text.encode_bacnet_real
+00000000 l    d  .text.decode_double	00000000 .text.decode_double
+00000000 l    d  .text.decode_double_safe	00000000 .text.decode_double_safe
+00000000 l    d  .text.encode_bacnet_double	00000000 .text.encode_bacnet_double
+00000000 l    d  .text.decode_context_double	00000000 .text.decode_context_double
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.decode_real	00000022 decode_real
+00000000 g     F .text.decode_real_safe	00000020 decode_real_safe
+00000000 g     F .text.decode_context_real	0000004e decode_context_real
+00000000         *UND*	00000000 __prologue_saves__
+00000000         *UND*	00000000 decode_is_context_tag
+00000000         *UND*	00000000 decode_tag_number_and_value
+00000000         *UND*	00000000 __epilogue_restores__
+00000000 g     F .text.encode_bacnet_real	00000010 encode_bacnet_real
+00000000 g     F .text.decode_double	0000003c decode_double
+00000000 g     F .text.decode_double_safe	00000020 decode_double_safe
+00000000 g     F .text.encode_bacnet_double	00000042 encode_bacnet_double
+00000000 g     F .text.decode_context_double	0000004e decode_context_double
+
+
+
+bacstr.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 bacstr.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.bitstring_init	00000000 .text.bitstring_init
+00000000 l    d  .text.bitstring_set_bit	00000000 .text.bitstring_set_bit
+00000000 l    d  .text.bitstring_bit	00000000 .text.bitstring_bit
+00000000 l    d  .text.bitstring_bits_used	00000000 .text.bitstring_bits_used
+00000000 l    d  .text.bitstring_bytes_used	00000000 .text.bitstring_bytes_used
+00000000 l    d  .text.bitstring_octet	00000000 .text.bitstring_octet
+00000000 l    d  .text.bitstring_set_octet	00000000 .text.bitstring_set_octet
+00000000 l    d  .text.bitstring_set_bits_used	00000000 .text.bitstring_set_bits_used
+00000000 l    d  .text.bitstring_bits_capacity	00000000 .text.bitstring_bits_capacity
+00000000 l    d  .text.bitstring_copy	00000000 .text.bitstring_copy
+00000000 l    d  .text.bitstring_same	00000000 .text.bitstring_same
+00000000 l    d  .text.characterstring_init	00000000 .text.characterstring_init
+00000000 l    d  .text.characterstring_init_ansi	00000000 .text.characterstring_init_ansi
+00000000 l    d  .text.characterstring_copy	00000000 .text.characterstring_copy
+00000000 l    d  .text.characterstring_ansi_copy	00000000 .text.characterstring_ansi_copy
+00000000 l    d  .text.characterstring_same	00000000 .text.characterstring_same
+00000000 l    d  .text.characterstring_ansi_same	00000000 .text.characterstring_ansi_same
+00000000 l    d  .text.characterstring_append	00000000 .text.characterstring_append
+00000000 l    d  .text.characterstring_truncate	00000000 .text.characterstring_truncate
+00000000 l    d  .text.characterstring_value	00000000 .text.characterstring_value
+00000000 l    d  .text.characterstring_length	00000000 .text.characterstring_length
+00000000 l    d  .text.characterstring_capacity	00000000 .text.characterstring_capacity
+00000000 l    d  .text.characterstring_encoding	00000000 .text.characterstring_encoding
+00000000 l    d  .text.characterstring_set_encoding	00000000 .text.characterstring_set_encoding
+00000000 l    d  .text.characterstring_printable	00000000 .text.characterstring_printable
+00000000 l    d  .text.utf8_isvalid	00000000 .text.utf8_isvalid
+00000000 l     O .rodata.trailingBytesForUTF8	00000100 trailingBytesForUTF8
+00000000 l    d  .text.characterstring_valid	00000000 .text.characterstring_valid
+00000000 l    d  .text.octetstring_init	00000000 .text.octetstring_init
+00000000 l    d  .text.octetstring_copy	00000000 .text.octetstring_copy
+00000000 l    d  .text.octetstring_copy_value	00000000 .text.octetstring_copy_value
+00000000 l    d  .text.octetstring_append	00000000 .text.octetstring_append
+00000000 l    d  .text.octetstring_truncate	00000000 .text.octetstring_truncate
+00000000 l    d  .text.octetstring_value	00000000 .text.octetstring_value
+00000000 l    d  .text.octetstring_length	00000000 .text.octetstring_length
+00000000 l    d  .text.octetstring_capacity	00000000 .text.octetstring_capacity
+00000000 l    d  .text.octetstring_value_same	00000000 .text.octetstring_value_same
+00000000 l    d  .rodata.trailingBytesForUTF8	00000000 .rodata.trailingBytesForUTF8
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.bitstring_init	0000001c bitstring_init
+00000000 g     F .text.bitstring_set_bit	00000052 bitstring_set_bit
+00000000 g     F .text.bitstring_bit	00000038 bitstring_bit
+00000000 g     F .text.bitstring_bits_used	00000006 bitstring_bits_used
+00000000 g     F .text.bitstring_bytes_used	00000018 bitstring_bytes_used
+00000000 g     F .text.bitstring_octet	00000016 bitstring_octet
+00000000 g     F .text.bitstring_set_octet	00000018 bitstring_set_octet
+00000000 g     F .text.bitstring_set_bits_used	00000018 bitstring_set_bits_used
+00000000 g     F .text.bitstring_bits_capacity	0000000c bitstring_bits_capacity
+00000000 g     F .text.bitstring_copy	0000003a bitstring_copy
+00000000 g     F .text.bitstring_same	0000007e bitstring_same
+00000000 g     F .text.characterstring_init	00000070 characterstring_init
+00000000 g     F .text.characterstring_init_ansi	00000028 characterstring_init_ansi
+00000000 g     F .text.characterstring_copy	00000026 characterstring_copy
+00000000 g     F .text.characterstring_ansi_copy	00000056 characterstring_ansi_copy
+00000000 g     F .text.characterstring_same	00000076 characterstring_same
+00000000 g     F .text.characterstring_ansi_same	00000078 characterstring_ansi_same
+00000000 g     F .text.characterstring_append	0000004a characterstring_append
+00000000 g     F .text.characterstring_truncate	00000018 characterstring_truncate
+00000000 g     F .text.characterstring_value	0000000e characterstring_value
+00000000 g     F .text.characterstring_length	00000012 characterstring_length
+00000000 g     F .text.characterstring_capacity	00000010 characterstring_capacity
+00000000 g     F .text.characterstring_encoding	0000000e characterstring_encoding
+00000000 g     F .text.characterstring_set_encoding	00000010 characterstring_set_encoding
+00000000 g     F .text.characterstring_printable	00000042 characterstring_printable
+00000000 g     F .text.utf8_isvalid	000000da utf8_isvalid
+00000000 g     F .text.characterstring_valid	00000020 characterstring_valid
+00000000 g     F .text.octetstring_init	00000062 octetstring_init
+00000000 g     F .text.octetstring_copy	0000001e octetstring_copy
+00000000 g     F .text.octetstring_copy_value	00000042 octetstring_copy_value
+00000000 g     F .text.octetstring_append	0000004a octetstring_append
+00000000 g     F .text.octetstring_truncate	00000018 octetstring_truncate
+00000000 g     F .text.octetstring_value	0000000e octetstring_value
+00000000 g     F .text.octetstring_length	00000012 octetstring_length
+00000000 g     F .text.octetstring_capacity	00000010 octetstring_capacity
+00000000 g     F .text.octetstring_value_same	0000004e octetstring_value_same
+00000000         *UND*	00000000 __do_copy_data
+
+
+
+iam.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 iam.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.iam_encode_apdu	00000000 .text.iam_encode_apdu
+00000000 l    d  .text.iam_decode_service_request	00000000 .text.iam_decode_service_request
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.iam_encode_apdu	0000007e iam_encode_apdu
+00000000         *UND*	00000000 __prologue_saves__
+00000000         *UND*	00000000 encode_application_object_id
+00000000         *UND*	00000000 encode_application_unsigned
+00000000         *UND*	00000000 encode_application_enumerated
+00000000         *UND*	00000000 __epilogue_restores__
+00000000 g     F .text.iam_decode_service_request	0000019e iam_decode_service_request
+00000000         *UND*	00000000 decode_tag_number_and_value
+00000000         *UND*	00000000 decode_object_id
+00000000         *UND*	00000000 decode_unsigned
+00000000         *UND*	00000000 decode_enumerated
+
+
+
+rp.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 rp.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.rp_encode_apdu	00000000 .text.rp_encode_apdu
+00000000 l    d  .text.rp_decode_service_request	00000000 .text.rp_decode_service_request
+00000000 l    d  .text.rp_ack_encode_apdu_init	00000000 .text.rp_ack_encode_apdu_init
+00000000 l    d  .text.rp_ack_encode_apdu_object_property_end	00000000 .text.rp_ack_encode_apdu_object_property_end
+00000000 l    d  .text.rp_ack_encode_apdu	00000000 .text.rp_ack_encode_apdu
+00000000 l    d  .text.rp_ack_decode_service_request	00000000 .text.rp_ack_decode_service_request
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.rp_encode_apdu	000000bc rp_encode_apdu
+00000000         *UND*	00000000 __prologue_saves__
+00000000         *UND*	00000000 encode_max_segs_max_apdu
+00000000         *UND*	00000000 encode_context_object_id
+00000000         *UND*	00000000 encode_context_enumerated
+00000000         *UND*	00000000 encode_context_unsigned
+00000000         *UND*	00000000 __epilogue_restores__
+00000000 g     F .text.rp_decode_service_request	00000164 rp_decode_service_request
+00000000         *UND*	00000000 decode_is_context_tag
+00000000         *UND*	00000000 decode_object_id
+00000000         *UND*	00000000 decode_tag_number_and_value
+00000000         *UND*	00000000 decode_enumerated
+00000000         *UND*	00000000 decode_unsigned
+00000000 g     F .text.rp_ack_encode_apdu_init	0000009c rp_ack_encode_apdu_init
+00000000         *UND*	00000000 encode_opening_tag
+00000000 g     F .text.rp_ack_encode_apdu_object_property_end	00000012 rp_ack_encode_apdu_object_property_end
+00000000         *UND*	00000000 encode_closing_tag
+00000000 g     F .text.rp_ack_encode_apdu	00000074 rp_ack_encode_apdu
+00000000 g     F .text.rp_ack_decode_service_request	0000013e rp_ack_decode_service_request
+00000000         *UND*	00000000 decode_is_opening_tag_number
+
+
+
+wp.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 wp.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.wp_encode_apdu	00000000 .text.wp_encode_apdu
+00000000 l    d  .text.wp_decode_service_request	00000000 .text.wp_decode_service_request
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.wp_encode_apdu	00000116 wp_encode_apdu
+00000000         *UND*	00000000 encode_max_segs_max_apdu
+00000000         *UND*	00000000 encode_context_object_id
+00000000         *UND*	00000000 encode_context_enumerated
+00000000         *UND*	00000000 encode_context_unsigned
+00000000         *UND*	00000000 encode_opening_tag
+00000000         *UND*	00000000 encode_closing_tag
+00000000         *UND*	00000000 __epilogue_restores__
+00000000 g     F .text.wp_decode_service_request	0000020c wp_decode_service_request
+00000000         *UND*	00000000 __prologue_saves__
+00000000         *UND*	00000000 decode_is_context_tag
+00000000         *UND*	00000000 decode_object_id
+00000000         *UND*	00000000 decode_tag_number_and_value
+00000000         *UND*	00000000 decode_enumerated
+00000000         *UND*	00000000 decode_unsigned
+00000000         *UND*	00000000 decode_is_opening_tag_number
+00000000         *UND*	00000000 bacapp_data_len
+00000000         *UND*	00000000 decode_is_closing_tag_number
+
+
+
+whois.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 whois.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.whois_encode_apdu	00000000 .text.whois_encode_apdu
+00000000 l    d  .text.whois_decode_service_request	00000000 .text.whois_decode_service_request
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.whois_encode_apdu	00000074 whois_encode_apdu
+00000000         *UND*	00000000 __prologue_saves__
+00000000         *UND*	00000000 encode_context_unsigned
+00000000         *UND*	00000000 __epilogue_restores__
+00000000 g     F .text.whois_decode_service_request	00000138 whois_decode_service_request
+00000000         *UND*	00000000 decode_tag_number_and_value
+00000000         *UND*	00000000 decode_unsigned
+
+
+
+bacaddr.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 bacaddr.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.bacnet_address_copy	00000000 .text.bacnet_address_copy
+00000000 l    d  .text.bacnet_address_same	00000000 .text.bacnet_address_same
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.bacnet_address_copy	00000066 bacnet_address_copy
+00000000 g     F .text.bacnet_address_same	00000090 bacnet_address_same
+
+
+
+abort.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 abort.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.abort_convert_error_code	00000000 .text.abort_convert_error_code
+00000000 l     O .rodata.CSWTCH.1	00000005 CSWTCH.1
+00000000 l    d  .text.abort_encode_apdu	00000000 .text.abort_encode_apdu
+00000000 l    d  .text.abort_decode_service_request	00000000 .text.abort_decode_service_request
+00000000 l    d  .rodata.CSWTCH.1	00000000 .rodata.CSWTCH.1
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.abort_convert_error_code	0000001a abort_convert_error_code
+00000000 g     F .text.abort_encode_apdu	00000022 abort_encode_apdu
+00000000 g     F .text.abort_decode_service_request	00000026 abort_decode_service_request
+00000000         *UND*	00000000 __do_copy_data
+
+
+
+reject.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 reject.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.reject_convert_error_code	00000000 .text.reject_convert_error_code
+00000000 l     O .rodata.CSWTCH.1	0000000a CSWTCH.1
+00000000 l    d  .text.reject_encode_apdu	00000000 .text.reject_encode_apdu
+00000000 l    d  .text.reject_decode_service_request	00000000 .text.reject_decode_service_request
+00000000 l    d  .rodata.CSWTCH.1	00000000 .rodata.CSWTCH.1
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.reject_convert_error_code	0000001a reject_convert_error_code
+00000000 g     F .text.reject_encode_apdu	0000001a reject_encode_apdu
+00000000 g     F .text.reject_decode_service_request	00000026 reject_decode_service_request
+00000000         *UND*	00000000 __do_copy_data
+
+
+
+bacerror.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 bacerror.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.bacerror_encode_apdu	00000000 .text.bacerror_encode_apdu
+00000000 l    d  .text.bacerror_decode_error_class_and_code	00000000 .text.bacerror_decode_error_class_and_code
+00000000 l    d  .text.bacerror_decode_service_request	00000000 .text.bacerror_decode_service_request
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.bacerror_encode_apdu	00000050 bacerror_encode_apdu
+00000000         *UND*	00000000 encode_application_enumerated
+00000000         *UND*	00000000 __epilogue_restores__
+00000000 g     F .text.bacerror_decode_error_class_and_code	000000c8 bacerror_decode_error_class_and_code
+00000000         *UND*	00000000 __prologue_saves__
+00000000         *UND*	00000000 decode_tag_number_and_value
+00000000         *UND*	00000000 decode_enumerated
+00000000 g     F .text.bacerror_decode_service_request	0000004c bacerror_decode_service_request
+
+
+
+bacapp.o:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 bacapp.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    d  .text.bacapp_encode_application_data	00000000 .text.bacapp_encode_application_data
+00000000 l    d  .text.bacapp_decode_data	00000000 .text.bacapp_decode_data
+00000000 l    d  .text.bacapp_decode_application_data	00000000 .text.bacapp_decode_application_data
+00000000 l    d  .text.bacapp_decode_application_data_safe	00000000 .text.bacapp_decode_application_data_safe
+00000000 l     O .bss.apdu.4798	00000002 apdu.4798
+00000000 l     O .bss.apdu_len_remaining.4799	00000004 apdu_len_remaining.4799
+00000000 l     O .bss.apdu_len.4800	00000004 apdu_len.4800
+00000000 l    d  .text.bacapp_decode_data_len	00000000 .text.bacapp_decode_data_len
+00000000 l    d  .text.bacapp_decode_application_data_len	00000000 .text.bacapp_decode_application_data_len
+00000000 l    d  .text.bacapp_encode_context_data_value	00000000 .text.bacapp_encode_context_data_value
+00000000 l    d  .text.bacapp_context_tag_type	00000000 .text.bacapp_context_tag_type
+00000000 l     O .rodata.CSWTCH.39	00000009 CSWTCH.39
+00000000 l     O .rodata.CSWTCH.40	00000004 CSWTCH.40
+00000000 l     O .rodata.CSWTCH.41	00000003 CSWTCH.41
+00000000 l    d  .text.bacapp_encode_context_data	00000000 .text.bacapp_encode_context_data
+00000000 l    d  .text.bacapp_decode_context_data	00000000 .text.bacapp_decode_context_data
+00000000 l    d  .text.bacapp_decode_context_data_len	00000000 .text.bacapp_decode_context_data_len
+00000000 l    d  .text.bacapp_encode_data	00000000 .text.bacapp_encode_data
+00000000 l    d  .text.bacapp_copy	00000000 .text.bacapp_copy
+00000000 l    d  .text.bacapp_data_len	00000000 .text.bacapp_data_len
+00000000 l    d  .rodata.CSWTCH.41	00000000 .rodata.CSWTCH.41
+00000000 l    d  .rodata.CSWTCH.40	00000000 .rodata.CSWTCH.40
+00000000 l    d  .rodata.CSWTCH.39	00000000 .rodata.CSWTCH.39
+00000000 l    d  .bss.apdu_len.4800	00000000 .bss.apdu_len.4800
+00000000 l    d  .bss.apdu_len_remaining.4799	00000000 .bss.apdu_len_remaining.4799
+00000000 l    d  .bss.apdu.4798	00000000 .bss.apdu.4798
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .comment	00000000 .comment
+00000000 g     F .text.bacapp_encode_application_data	0000006e bacapp_encode_application_data
+00000000         *UND*	00000000 encode_application_real
+00000000         *UND*	00000000 encode_application_object_id
+00000000         *UND*	00000000 encode_application_unsigned
+00000000         *UND*	00000000 encode_application_character_string
+00000000         *UND*	00000000 encode_application_enumerated
+00000000 g     F .text.bacapp_decode_data	000000d2 bacapp_decode_data
+00000000         *UND*	00000000 __prologue_saves__
+00000000         *UND*	00000000 decode_real_safe
+00000000         *UND*	00000000 decode_object_id_safe
+00000000         *UND*	00000000 decode_unsigned
+00000000         *UND*	00000000 decode_character_string
+00000000         *UND*	00000000 decode_enumerated
+00000000         *UND*	00000000 __epilogue_restores__
+00000000 g     F .text.bacapp_decode_application_data	0000008e bacapp_decode_application_data
+00000000         *UND*	00000000 decode_tag_number_and_value
+00000000 g     F .text.bacapp_decode_application_data_safe	000001d0 bacapp_decode_application_data_safe
+00000000         *UND*	00000000 decode_tag_number_and_value_safe
+00000000 g     F .text.bacapp_decode_data_len	00000014 bacapp_decode_data_len
+00000000 g     F .text.bacapp_decode_application_data_len	00000062 bacapp_decode_application_data_len
+00000000 g     F .text.bacapp_encode_context_data_value	00000076 bacapp_encode_context_data_value
+00000000         *UND*	00000000 encode_context_real
+00000000         *UND*	00000000 encode_context_object_id
+00000000         *UND*	00000000 encode_context_unsigned
+00000000         *UND*	00000000 encode_context_character_string
+00000000         *UND*	00000000 encode_context_enumerated
+00000000 g     F .text.bacapp_context_tag_type	000000da bacapp_context_tag_type
+00000000 g     F .text.bacapp_encode_context_data	0000004c bacapp_encode_context_data
+00000000 g     F .text.bacapp_decode_context_data	000000ca bacapp_decode_context_data
+00000000         *UND*	00000000 decode_is_closing_tag_number
+00000000 g     F .text.bacapp_decode_context_data_len	0000007a bacapp_decode_context_data_len
+00000000 g     F .text.bacapp_encode_data	00000028 bacapp_encode_data
+00000000 g     F .text.bacapp_copy	000000b8 bacapp_copy
+00000000         *UND*	00000000 characterstring_copy
+00000000 g     F .text.bacapp_data_len	000000dc bacapp_data_len
+00000000         *UND*	00000000 __do_copy_data
+00000000         *UND*	00000000 __do_clear_bss
+
+
